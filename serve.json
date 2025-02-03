@@ -1,0 +1,19 @@
+{
+    "TCP": {
+        "3000": {
+            "HTTPS": true
+        }
+    },
+    "Web": {
+        "${TS_CERT_DOMAIN}:3000": {
+            "Handlers": {
+                "/": {
+                    "Proxy": "http://0.0.0.0:3000"
+                }
+            }
+        }
+    },
+    "AllowFunnel": {
+        "${TS_CERT_DOMAIN}:3000": false
+    }
+}

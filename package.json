@@ -1,0 +1,16 @@
+{
+  "name": "tailscale-sidecar-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
